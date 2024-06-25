@@ -28,7 +28,7 @@ pipeline {
     }
   stage('Build') {
     steps {
-      dir('gde_project') {
+      dir('WeatherApp') {
         script  {
           echo "Commit ID is ${commitId}"
         }
